@@ -1,12 +1,12 @@
 import React from 'react'; 
 import TwitterCard  from '../components/TwitterCard'
 
-interface AboutMe { 
+interface AboutMeProps { 
     body: string; 
     date: string; 
 }
 
-const AboutMe: AboutMe[] = [
+const AboutMe: AboutMeProps[] = [
     {
         "body":  "Leaving behind academic research, to join @NOCD as a Software Engineer.",
         "date": "Aug 01, 2020"
